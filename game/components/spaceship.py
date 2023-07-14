@@ -9,7 +9,7 @@ class Spaceship(Sprite):
     SHIP_HEIGHT = 60
     X_POS = (SCREEN_WIDTH // 2) - SHIP_WIDTH
     Y_POS = 500
-    SHIP_SPEED = 10
+    SHIP_SPEED = 12
     def __init__(self):
         self.image = SPACESHIP
         self.image = pygame.transform.scale(self.image,(self.SHIP_WIDTH, self.SHIP_HEIGHT))
