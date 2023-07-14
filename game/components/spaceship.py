@@ -45,4 +45,3 @@ class Spaceship(Sprite):
         self.rect.y += self.SHIP_SPEED
         if self.rect.y + self.SHIP_HEIGHT > SCREEN_HEIGHT:
           self.rect.y = SCREEN_HEIGHT - self.SHIP_HEIGHT
- 

@@ -1,7 +1,6 @@
 import pygame
 from game.components.spaceship import Spaceship
 
-
 from game.utils.constants import BG, ICON, SCREEN_HEIGHT, SCREEN_WIDTH, TITLE, FPS, DEFAULT_TYPE
 
 
@@ -17,7 +16,6 @@ class Game:
         self.x_pos_bg = 0
         self.y_pos_bg = 0
         self.player = Spaceship()
-
 
     def run(self):
         # Game loop: events - update - draw
